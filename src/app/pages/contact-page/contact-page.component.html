@@ -1,0 +1,21 @@
+<form [formGroup]="contactForm" (ngSubmit)=submitContactForm()>
+    <label for="name">Name</label>
+    <input type="text" id="name" formControlName="name">
+    <p *ngIf="submitted && !contactForm.get('name').valid">
+        Name is required to have min 3 characters.
+    </p>
+
+    <label for="email">eMail</label>
+    <input type="text" id="email" formControlName="email">
+
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" formControlName="phone">
+
+    <label for="description">Description</label>
+    <input type="text" id="description" formControlName="description">
+    <div>
+    <button>Send</button>
+    </div>
+    </form>
+    
+

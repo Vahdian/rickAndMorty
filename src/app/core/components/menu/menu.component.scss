@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+}
+nav li{
+    margin: 20px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav li a{
+    text-decoration: none;
+    font-family: var(--font-family-base);
+    color: var(--color-primary);
+    font-size: 80px
+}

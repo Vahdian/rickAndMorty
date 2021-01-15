@@ -1,0 +1,11 @@
+<div class="row c-gallery">
+    <div class="col-12 col-sm-6 col-md-3" *ngFor="let item of list">
+<figure class="c-gallery__figure" routerLink="/characters/{{item.id}}">
+        <img class="c-gallery__img" src="{{item.image ? item.image : 'https://upload.wikimedia.org/wikipedia/commons/b/b1/Ice_planet.png'}}"  alt="{{item.name}}">
+        <figcaption class="c-gallery__text">{{item.name | priorityName: 'Rick'}}</figcaption>
+        <button (click)="addToFavorites($event, item)">Add to Favorites</button>
+       
+        
+</figure>
+</div>
+</div>

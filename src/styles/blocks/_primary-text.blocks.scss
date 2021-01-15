@@ -1,0 +1,12 @@
+.b-primary-text{
+    font-size: 135px;
+    color: var(--color-primary);
+    text-align: center;
+    font-family: var(--font-family-base);
+    &--dark{ // b-primary-text--dark
+        color: #000000;
+    }
+    &--small{
+        font-size: 24px
+    }
+}

@@ -1,0 +1,28 @@
+.c-gallery {
+    &__figure{
+      margin: 16px 0;
+      text-align: center;
+      cursor: pointer;
+      text-align: center;
+    }
+  
+    &__img {
+      border: 8px solid var(--color-primary);
+      width: 80%;
+      object-fit: cover;
+      border-radius: 500px;
+    }
+  
+    &__text{
+      font-size: 36px;
+      font-family: var(--font-family-base);
+      color:var(--color-primary);
+      text-align: rightw;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      display: table-cell;
+      text-transform: lowercase;
+      text-align: center;
+    }
+  }
