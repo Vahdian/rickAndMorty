@@ -3,7 +3,7 @@
 <figure class="c-gallery__figure" routerLink="/characters/{{item.id}}">
         <img class="c-gallery__img" src="{{item.image ? item.image : 'https://upload.wikimedia.org/wikipedia/commons/b/b1/Ice_planet.png'}}"  alt="{{item.name}}">
         <figcaption class="c-gallery__text">{{item.name | priorityName: 'Rick'}}</figcaption>
-        <button (click)="addToFavorites($event, item)">Add to Favorites</button>
+        <button class="buttonFavorites" (click)="addToFavorites($event, item)">Add to Favorites</button>
        
         
 </figure>

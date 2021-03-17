@@ -1,0 +1,17 @@
+.appPaginator {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  button {
+    border: 1px solid white;
+    background-color: rgba(143, 243, 61, 0.6);
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+  }
+}
