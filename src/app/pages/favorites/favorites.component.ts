@@ -13,7 +13,7 @@ export class FavoritesComponent implements OnInit {
 
   ngOnInit(): void {
     this.favoritesLocal = this.favoritesLocalService.getFavorites();
-    console.log(this.favoritesLocal)
+    console.log(this.favoritesLocal, "funciono?")
   }
 
 }

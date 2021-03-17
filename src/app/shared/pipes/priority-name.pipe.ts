@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class PriorityNamePipe implements PipeTransform {
 
-  transform(value, arg){
+  transform(value: any, arg: any){
     if (value.includes(arg)){
       return '*' + value + '*';
     } else {

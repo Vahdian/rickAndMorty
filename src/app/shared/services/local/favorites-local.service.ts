@@ -5,15 +5,15 @@ import { Injectable } from '@angular/core';
 })
 export class FavoritesLocalService {
 
-private favorites = [];
+favorites : string[] = [];
 
 constructor() { }
 
-addFavorite(newFavorite) {
-  this.favorites.push(newFavorite)
+addFavorite(newFavorite: any) {
+  this.favorites.push(newFavorite); 
 }
 
 getFavorites(){
-  return this.favorites
+  return this.favorites;
 }
 }

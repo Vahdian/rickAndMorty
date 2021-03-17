@@ -1,3 +1,4 @@
+import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -28,6 +29,7 @@ import { PriorityNamePipe } from './shared/pipes/priority-name.pipe';
     ContactPageComponent,
     LocationsComponent,
     PriorityNamePipe,
+    FavoritesComponent,
   ],
   imports: [
     BrowserModule,
